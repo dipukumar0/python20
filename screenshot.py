@@ -1,9 +1,10 @@
 import time
 import pyautogui
 
-def take_screenshot():
+def screenshot():
     time.sleep(5)
-    img - pyautogui.screenshot('test.png')
+    img = pyautogui.screenshot('text.png')
     img.show()
+
 
     screenshot()
